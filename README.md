@@ -9,13 +9,13 @@
 	auto-sync = Yes
 	sync-type = git
 
-创建相应的目录
-
-	mkdir -p /var/db/repos/zeroway
-
 同步仓库
 
 	emerge --sync zeroway
+
+更新数据库
+
+	eix-update
 
 安装软件
 
